@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Pan de campo", "precio": 4800, "stock": 20, "unidad": "unidad (800 g)" },
+  { "id": 2, "nombre": "Baguette", "precio": 2200, "stock": 35, "unidad": "unidad" },
+  { "id": 3, "nombre": "Pan de centeno", "precio": 5600, "stock": 8, "unidad": "unidad (700 g)" },
+  { "id": 4, "nombre": "Ciabatta", "precio": 1900, "stock": 25, "unidad": "unidad" },
+  { "id": 5, "nombre": "Focaccia de romero", "precio": 6500, "stock": 6, "unidad": "plancha" },
+  { "id": 6, "nombre": "Pan de molde integral", "precio": 4200, "stock": 0, "unidad": "unidad" }
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panadería | Simulador de pedidos</title>
+
+  <!-- Librerías vía CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Pedidos del día</h1>
+    <p>Elegí los panes, armá tu pedido y confirmalo.</p>
+  </header>
+
+  <main class="layout">
+    <section aria-labelledby="titulo-productos">
+      <h2 id="titulo-productos">Productos</h2>
+      <!-- Estado de carga / error -->
+      <p id="estado" class="estado" role="status"></p>
+      <!-- Acá se renderizan los productos -->
+      <ul id="lista-productos" class="lista-productos"></ul>
+    </section>
+
+    <aside class="carrito" aria-labelledby="titulo-carrito">
+      <h2 id="titulo-carrito">Tu pedido</h2>
+      <ul id="lista-carrito" class="lista-carrito"></ul>
+      <p class="total">Total: <strong id="total">$0</strong></p>
+      <div class="acciones">
+        <button id="btn-vaciar" class="btn btn-secundario">Vaciar pedido</button>
+        <button id="btn-confirmar" class="btn">Confirmar pedido</button>
+      </div>
+    </aside>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.js"></script>
+</body>
+</html>
